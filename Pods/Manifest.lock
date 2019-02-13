@@ -1,0 +1,36 @@
+PODS:
+  - DIBS (1.0.0)
+  - ePay (1.0.0)
+  - MobilePay-AppSwitch-SDK (1.8.1)
+
+DEPENDENCIES:
+  - DIBS (from `https://github.com/linarchabibulin/DibsPayment.git`)
+  - ePay (from `https://github.com/cheskapac/epay-ios-sdk-lib.git`)
+  - MobilePay-AppSwitch-SDK
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - MobilePay-AppSwitch-SDK
+
+EXTERNAL SOURCES:
+  DIBS:
+    :git: https://github.com/linarchabibulin/DibsPayment.git
+  ePay:
+    :git: https://github.com/cheskapac/epay-ios-sdk-lib.git
+
+CHECKOUT OPTIONS:
+  DIBS:
+    :commit: 5b03b98cb2e410efe5694f1d0b2a2e815a6cc124
+    :git: https://github.com/linarchabibulin/DibsPayment.git
+  ePay:
+    :commit: 8f4410091c71484c9d4a3ab71a73acf8fc9e7041
+    :git: https://github.com/cheskapac/epay-ios-sdk-lib.git
+
+SPEC CHECKSUMS:
+  DIBS: 875fbfb95a28b453c4474c6c5508b8e6180216a5
+  ePay: ebef0dedb389458a6e09f303fd5a204dc67407f0
+  MobilePay-AppSwitch-SDK: 6ed36faad59e4cdd1bc8f8fde8f4a9f2d1e4cb2c
+
+PODFILE CHECKSUM: c98fd869bbf89858af333c97517db7c81a5e3613
+
+COCOAPODS: 1.5.3
