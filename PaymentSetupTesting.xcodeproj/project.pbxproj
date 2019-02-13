@@ -23,6 +23,7 @@
 		07DA3A90221407CF00D11EC9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		07DA3A93221407CF00D11EC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		07DA3A95221407D000D11EC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07DA3A9C2214107800D11EC9 /* Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
 		33367BB35342163A0DAA2C32 /* Pods-PaymentSetupTesting.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PaymentSetupTesting.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PaymentSetupTesting/Pods-PaymentSetupTesting.debug.xcconfig"; sourceTree = "<group>"; };
 		C30C4B72991B90D3495B3D54 /* Pods_PaymentSetupTesting.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PaymentSetupTesting.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF634BF7A77B71E67B2D6E9F /* Pods-PaymentSetupTesting.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PaymentSetupTesting.release.xcconfig"; path = "Pods/Target Support Files/Pods-PaymentSetupTesting/Pods-PaymentSetupTesting.release.xcconfig"; sourceTree = "<group>"; };
@@ -61,6 +62,7 @@
 		07DA3A88221407CE00D11EC9 /* PaymentSetupTesting */ = {
 			isa = PBXGroup;
 			children = (
+				07DA3A9C2214107800D11EC9 /* Bridging-Header.h */,
 				07DA3A89221407CE00D11EC9 /* AppDelegate.swift */,
 				07DA3A8B221407CE00D11EC9 /* ViewController.swift */,
 				07DA3A8D221407CE00D11EC9 /* Main.storyboard */,
@@ -368,7 +370,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.telesoftas.PaymentSetupTesting;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "PaymentSetupTesting/Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -387,7 +389,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.telesoftas.PaymentSetupTesting;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "PaymentSetupTesting/Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
