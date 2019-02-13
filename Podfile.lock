@@ -1,0 +1,40 @@
+PODS:
+  - Alamofire (4.8.1)
+  - ePay (1.0.0)
+  - MobilePay-AppSwitch-SDK (1.8.1)
+  - PaymentModule (1.0.0):
+    - Alamofire
+    - ePay
+    - MobilePay-AppSwitch-SDK
+    - SwiftTryCatch
+  - SwiftTryCatch (0.0.1)
+
+DEPENDENCIES:
+  - PaymentModule (from `https://github.com/linarchabibulin/PaymentModule.git`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - ePay
+    - MobilePay-AppSwitch-SDK
+    - SwiftTryCatch
+
+EXTERNAL SOURCES:
+  PaymentModule:
+    :git: https://github.com/linarchabibulin/PaymentModule.git
+
+CHECKOUT OPTIONS:
+  PaymentModule:
+    :commit: eb1e6107e958a8e985eefac0fdf9fcc0dd070094
+    :git: https://github.com/linarchabibulin/PaymentModule.git
+
+SPEC CHECKSUMS:
+  Alamofire: 16ce2c353fb72865124ddae8a57c5942388f4f11
+  ePay: ebef0dedb389458a6e09f303fd5a204dc67407f0
+  MobilePay-AppSwitch-SDK: 6ed36faad59e4cdd1bc8f8fde8f4a9f2d1e4cb2c
+  PaymentModule: 442a42849305cd3224932c05e8018f8b51530c98
+  SwiftTryCatch: fb6d2b34abe48efd69578dac919293a44f95b481
+
+PODFILE CHECKSUM: a1b60076d1932d8c2dc003de292d4b25b779478e
+
+COCOAPODS: 1.5.3
