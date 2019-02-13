@@ -6,6 +6,13 @@
 //  Copyright © 2019 maps. All rights reserved.
 //
 
+
+/*
+ It is imposible to use pods installed in app in another pod that is installed in app
+ Example: app has two pods: "podA" and "podB". It is imposible to use podA in podB
+ branch - separateExternalPods
+ */
+
 import UIKit
 
 @UIApplicationMain
