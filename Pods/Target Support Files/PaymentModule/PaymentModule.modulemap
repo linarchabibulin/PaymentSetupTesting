@@ -1,4 +1,4 @@
-module PaymentModule {
+framework module PaymentModule {
   umbrella header "PaymentModule-umbrella.h"
 
   export *

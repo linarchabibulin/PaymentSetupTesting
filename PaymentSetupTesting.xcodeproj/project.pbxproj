@@ -12,7 +12,7 @@
 		07DA3A8F221407CE00D11EC9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07DA3A8D221407CE00D11EC9 /* Main.storyboard */; };
 		07DA3A91221407CF00D11EC9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07DA3A90221407CF00D11EC9 /* Assets.xcassets */; };
 		07DA3A94221407CF00D11EC9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07DA3A92221407CF00D11EC9 /* LaunchScreen.storyboard */; };
-		40C65065ADB167CA4BA4BB5D /* libPods-PaymentSetupTesting.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E7DE164A9F934D67F3F7752 /* libPods-PaymentSetupTesting.a */; };
+		9CC09714D509B25FDA234D47 /* Pods_PaymentSetupTesting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C30C4B72991B90D3495B3D54 /* Pods_PaymentSetupTesting.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,8 +23,8 @@
 		07DA3A90221407CF00D11EC9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		07DA3A93221407CF00D11EC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		07DA3A95221407D000D11EC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0E7DE164A9F934D67F3F7752 /* libPods-PaymentSetupTesting.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PaymentSetupTesting.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		33367BB35342163A0DAA2C32 /* Pods-PaymentSetupTesting.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PaymentSetupTesting.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PaymentSetupTesting/Pods-PaymentSetupTesting.debug.xcconfig"; sourceTree = "<group>"; };
+		C30C4B72991B90D3495B3D54 /* Pods_PaymentSetupTesting.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PaymentSetupTesting.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF634BF7A77B71E67B2D6E9F /* Pods-PaymentSetupTesting.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PaymentSetupTesting.release.xcconfig"; path = "Pods/Target Support Files/Pods-PaymentSetupTesting/Pods-PaymentSetupTesting.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -33,7 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				40C65065ADB167CA4BA4BB5D /* libPods-PaymentSetupTesting.a in Frameworks */,
+				9CC09714D509B25FDA234D47 /* Pods_PaymentSetupTesting.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,7 +83,7 @@
 		F9063F6AAFE1F13C3CF5F225 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				0E7DE164A9F934D67F3F7752 /* libPods-PaymentSetupTesting.a */,
+				C30C4B72991B90D3495B3D54 /* Pods_PaymentSetupTesting.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -99,7 +99,7 @@
 				07DA3A82221407CE00D11EC9 /* Sources */,
 				07DA3A83221407CE00D11EC9 /* Frameworks */,
 				07DA3A84221407CE00D11EC9 /* Resources */,
-				B7FCEC30C6E8C1B366857041 /* [CP] Copy Pods Resources */,
+				4A0CA6ADD17EDAC85FD3C9EB /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -157,6 +157,32 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		4A0CA6ADD17EDAC85FD3C9EB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-PaymentSetupTesting/Pods-PaymentSetupTesting-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/PaymentModule/PaymentModule.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftTryCatch/SwiftTryCatch.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PaymentModule.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftTryCatch.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PaymentSetupTesting/Pods-PaymentSetupTesting-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		7D3C3D8EF1FDE1A835D65E5B /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -177,28 +203,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		B7FCEC30C6E8C1B366857041 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-PaymentSetupTesting/Pods-PaymentSetupTesting-resources.sh",
-				"${PODS_CONFIGURATION_BUILD_DIR}/PaymentModule/PaymentsResources.bundle",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/PaymentsResources.bundle",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PaymentSetupTesting/Pods-PaymentSetupTesting-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -364,6 +368,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.telesoftas.PaymentSetupTesting;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -382,6 +387,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.telesoftas.PaymentSetupTesting;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

@@ -1,12 +1,13 @@
 ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/Alamofire" "${PODS_CONFIGURATION_BUILD_DIR}/PaymentModule" "${PODS_CONFIGURATION_BUILD_DIR}/SwiftTryCatch"
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
 HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/DIBS" "${PODS_ROOT}/Headers/Public/MobilePay-AppSwitch-SDK" "${PODS_ROOT}/Headers/Public/ePay"
-LIBRARY_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/Alamofire" "${PODS_CONFIGURATION_BUILD_DIR}/PaymentModule" "${PODS_ROOT}/DIBS/dibs" "${PODS_ROOT}/MobilePay-AppSwitch-SDK/sdk/iOS/1.8.1/MobilePayManager" "${PODS_ROOT}/ePay/epay"
-OTHER_CFLAGS = $(inherited) -fmodule-map-file="${PODS_CONFIGURATION_BUILD_DIR}/Alamofire/Alamofire.modulemap" -fmodule-map-file="${PODS_CONFIGURATION_BUILD_DIR}/PaymentModule/PaymentModule.modulemap" -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/DIBS" -isystem "${PODS_ROOT}/Headers/Public/MobilePay-AppSwitch-SDK" -isystem "${PODS_ROOT}/Headers/Public/ePay"
-OTHER_LDFLAGS = $(inherited) -ObjC -l"Alamofire" -l"DIBSlib" -l"EPayLib" -l"MobilePayManager1.8.1" -l"PaymentModule"
-OTHER_SWIFT_FLAGS = $(inherited) -Xcc -fmodule-map-file="${PODS_CONFIGURATION_BUILD_DIR}/Alamofire/Alamofire.modulemap" -Xcc -fmodule-map-file="${PODS_CONFIGURATION_BUILD_DIR}/PaymentModule/PaymentModule.modulemap" $(inherited) "-D" "COCOAPODS"
+LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
+LIBRARY_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/DIBS/dibs" "${PODS_ROOT}/MobilePay-AppSwitch-SDK/sdk/iOS/1.8.1/MobilePayManager" "${PODS_ROOT}/ePay/epay"
+OTHER_CFLAGS = $(inherited) -iquote "${PODS_CONFIGURATION_BUILD_DIR}/Alamofire/Alamofire.framework/Headers" -iquote "${PODS_CONFIGURATION_BUILD_DIR}/PaymentModule/PaymentModule.framework/Headers" -iquote "${PODS_CONFIGURATION_BUILD_DIR}/SwiftTryCatch/SwiftTryCatch.framework/Headers" -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/DIBS" -isystem "${PODS_ROOT}/Headers/Public/MobilePay-AppSwitch-SDK" -isystem "${PODS_ROOT}/Headers/Public/ePay"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"DIBSlib" -l"EPayLib" -l"MobilePayManager1.8.1" -framework "Alamofire" -framework "PaymentModule" -framework "SwiftTryCatch"
+OTHER_SWIFT_FLAGS = $(inherited) "-D" "COCOAPODS"
 PODS_BUILD_DIR = ${BUILD_DIR}
 PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
 PODS_PODFILE_DIR_PATH = ${SRCROOT}/.
 PODS_ROOT = ${SRCROOT}/Pods
-SWIFT_INCLUDE_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/Alamofire" "${PODS_CONFIGURATION_BUILD_DIR}/PaymentModule"

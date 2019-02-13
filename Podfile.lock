@@ -5,6 +5,8 @@ PODS:
   - MobilePay-AppSwitch-SDK (1.8.1)
   - PaymentModule (1.0.0):
     - Alamofire
+    - SwiftTryCatch
+  - SwiftTryCatch (0.0.1)
 
 DEPENDENCIES:
   - DIBS (from `https://github.com/linarchabibulin/DibsPayment.git`)
@@ -16,6 +18,7 @@ SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - Alamofire
     - MobilePay-AppSwitch-SDK
+    - SwiftTryCatch
 
 EXTERNAL SOURCES:
   DIBS:
@@ -33,7 +36,7 @@ CHECKOUT OPTIONS:
     :commit: 8f4410091c71484c9d4a3ab71a73acf8fc9e7041
     :git: https://github.com/cheskapac/epay-ios-sdk-lib.git
   PaymentModule:
-    :commit: 525de5b6cc61cf022a5655bf1cd27a2252b802d6
+    :commit: 2f97ede7d3f3226eacc8b1813e5ff688dbb659ed
     :git: https://github.com/linarchabibulin/PaymentModule.git
 
 SPEC CHECKSUMS:
@@ -41,8 +44,9 @@ SPEC CHECKSUMS:
   DIBS: 875fbfb95a28b453c4474c6c5508b8e6180216a5
   ePay: ebef0dedb389458a6e09f303fd5a204dc67407f0
   MobilePay-AppSwitch-SDK: 6ed36faad59e4cdd1bc8f8fde8f4a9f2d1e4cb2c
-  PaymentModule: 38addcef39c5b894fc874ce45f52c3a95b0ec0b9
+  PaymentModule: 77c0944eb2ee8d21d10bacf190e659bb2aa5bd0f
+  SwiftTryCatch: fb6d2b34abe48efd69578dac919293a44f95b481
 
-PODFILE CHECKSUM: a890f8ab281557dd52fa47ea34cf68ddc552aba4
+PODFILE CHECKSUM: a8fadc95f217823298ca944f560b3b04de78378e
 
 COCOAPODS: 1.5.3
