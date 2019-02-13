@@ -7,39 +7,190 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		ED6ED21E2D533D649632109BB788B2DF /* Pods-PaymentSetupTesting-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DF89B4055F3FF64CD4FA6B33BDB101B /* Pods-PaymentSetupTesting-dummy.m */; };
+		0141431D590CEAC37CCA7D4A8C66211A /* MobilePayConfigurationProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 352922B99A4C525B09749878CF3F887D /* MobilePayConfigurationProtocol.swift */; };
+		032BCEB41AEBEA0F759440DF02E10453 /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAD7D06B75B1326E82B2DC982D228492 /* MultipartFormData.swift */; };
+		0C966E828109E9D987A3C0828541F7C6 /* Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DDB9853980220B4140B311871AC57A72 /* Alamofire-dummy.m */; };
+		1D05C5D42771B5C5CA3E89806BF3C265 /* MobilePayModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35ED6ECB815529BC48B5633CBF0E985C /* MobilePayModule.swift */; };
+		1E10BF6D988EEAC012F73DED093CA959 /* EpayConfigurationProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA64816308BDB9FD0D6F77E89C5A32E /* EpayConfigurationProtocol.swift */; };
+		258E71ECF3D900477A267306555F9A8E /* TaskDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1888C47AB35F63B4B10423054D8439C7 /* TaskDelegate.swift */; };
+		345319CED66C632F311CD49F2608AD73 /* DIBSApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3376168F905CA77FDB671A21092DD86 /* DIBSApiClient.swift */; };
+		3A0D6DD7E1CE756058D709EF71B8A188 /* Pods-PaymentSetupTesting-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 79FCCA40AE3606926CA46B3CAA52ED1E /* Pods-PaymentSetupTesting-dummy.m */; };
+		3CE316FB1EA8B67619B8F1F69C2D7DEF /* DispatchQueue+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 576F538F10B15B9ABEDFF0DE10B6697B /* DispatchQueue+Alamofire.swift */; };
+		3DDCA258D16FC48120ADFE4BA405F573 /* DIBSAppearanceConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9FEF2775F062C75382861634CFF7EC1 /* DIBSAppearanceConfiguration.swift */; };
+		4E2166B153EA2A7444AADF63927311EF /* EpayEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E448FBD934E771ACE13507A6027B7A /* EpayEditViewController.swift */; };
+		575224D31477621F5F75F60A52DB3555 /* PaymentBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE5D851ADB1699D1F11C7C4116EF7FC /* PaymentBaseViewController.swift */; };
+		59A379D2EB8028CB07331F2E18B6FC40 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = C802C82D9A26079742B652C78F856B73 /* Request.swift */; };
+		59AB5F832FF05888E13C6FF6264798CB /* DibsRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B0A55EF9818282C481EF7C10430A08 /* DibsRepository.swift */; };
+		5BC1C61CB83F16DFD89AC9A78CDFADC3 /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 211C44E1784D86821DFCBFCBB63EF888 /* Validation.swift */; };
+		60328352B8BB6FCD96BDF971E85EF2DF /* PaymentApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75A982B179D5585ACBF9D53004B9F713 /* PaymentApiClient.swift */; };
+		65FB6BE95029EBC2243EFCB122C52A2A /* PaymentModuleConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9453A6BF4697DABC01C455F924ABC533 /* PaymentModuleConfiguration.swift */; };
+		668DA2358C17E58C237B811862AE4A47 /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28D3AAAA53F75E134E1035531C98E616 /* SessionManager.swift */; };
+		66DAA427DFCF69455F88D50EBDCEC978 /* AFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BBC9AEF95355DF1B70F145868AD89A3 /* AFError.swift */; };
+		69B7D27E614AD93626EE5013267D1E7C /* EpayModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91DE999949D097F765B80FB511F92B4E /* EpayModule.swift */; };
+		6C899179CD8BC56430C828368680C939 /* PaymentModule-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 74328441488D3EFF6DEC31A2E921B788 /* PaymentModule-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6EB4987366B9F2ACFE6FAFDE37353A39 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE2D80E97DCBF295963633E38F05210 /* ParameterEncoding.swift */; };
+		7BC8DA4E93B1971E5BC9B049AD014A3A /* DIBSPaymentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C3688FD8CB78F8A26281BDBBC2E43A1 /* DIBSPaymentViewController.swift */; };
+		8BB170EF376EB2F719D596A71E651FDF /* NetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656EA57DBF4AD64F72A56C181DBB5B0C /* NetworkReachabilityManager.swift */; };
+		995342CEAD25C47F61EF609DA72DC9C5 /* EditPaymentInfoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C81D64CB76C3B33EA9CF4D36C22DD4E /* EditPaymentInfoViewController.xib */; };
+		99F1F80D608D10CAD93DAC3AC098C4B7 /* EpayBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0950470412B89CC767B36894F1536AB1 /* EpayBaseViewController.swift */; };
+		A4D3F3BA9A538C40B5A151CA6895A0CB /* EpayPaymentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F85CBE8C0D48F8D913B23CFC214B5F3C /* EpayPaymentViewController.swift */; };
+		ADE282903F2420AB6AF7FCB78FD00535 /* EditPaymentInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21527EC06F62AFA0DEB66857DC949E0F /* EditPaymentInfoViewController.swift */; };
+		AF4913C4F390C2B2F2B44B7E10382019 /* Pods-PaymentSetupTesting-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E0E1E64F3F80DC9C1AD62ACC4F9151F7 /* Pods-PaymentSetupTesting-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B15AE25F2284AC71F87FAC7AAE5EA393 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C5F6275DB12ADE1CF008CD76C7B1EBC /* Response.swift */; };
+		B6E153E514E37B85F25975A0E2B34FEC /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 737741986F89DF1062BE8F049F24BAC5 /* ResponseSerialization.swift */; };
+		B80D0F2AEBE77CD8F9F530FA50127469 /* EpayApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27DE743C3CD912BF6A99F9C6EE54CACF /* EpayApiClient.swift */; };
+		BA5CE856DF9AAD53B1792B5B9C602E59 /* PaymentModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4C17A605AA00C00DB48CFE76854EB3 /* PaymentModule.swift */; };
+		BB762712EFCE79D234EA27593A5F5312 /* DibsModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC97456095D59948FBD4C6464045A6F5 /* DibsModule.swift */; };
+		BEFECBD83E818B612CCCF26BF42C9A07 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1630F3C5A5DF928B5E563F8A6B4F46D4 /* Alamofire.swift */; };
+		CA6BD52AB35379D1EC283FEC9152674D /* Timeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48407F1B8205304D9E870AF9F492B2A /* Timeline.swift */; };
+		DACF8D436F6849026C0A20734F94B883 /* OrderConfirmationEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045D8F6C9F233A1D7F46B7B1B8C62A8A /* OrderConfirmationEntity.swift */; };
+		DB6B7AA2E4CD8E61A1ED901AE8A0F63A /* PaymentModule-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F59594047C5C61E9748D244EE202812 /* PaymentModule-dummy.m */; };
+		E09041A10CE1271F31325AA84E3C6A33 /* ServerTrustPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7EE723643E395C29147DDE0A2CFA712 /* ServerTrustPolicy.swift */; };
+		E1BA2037C66C81446F174CB2341110B5 /* DIBSConfigurationProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A223FE93A93BE2FE71BF1A05AB63157 /* DIBSConfigurationProtocol.swift */; };
+		E358EB7574B94EF931AF6B8561785CEB /* SessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3705DEAF1AC7FE49C5A5EC48AAF55786 /* SessionDelegate.swift */; };
+		E83114CDF6976DA494E2128F47617FC7 /* PaymentModuleConfigurationProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C993B0FB72E7B5399D1DD5DA9AE499 /* PaymentModuleConfigurationProtocol.swift */; };
+		E9CFA3B1AD0E1D6C406D21140785BEE4 /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 611284F30B3FC91CFBCBAFBA4412A01E /* Notifications.swift */; };
+		EE7A9102DB787F4E64A07A51B99B36DB /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 976B298D64DDA6C741E4FF51C2FFBCF7 /* Result.swift */; };
+		F22D5CE1470B5AB9301BAFC32F53DF0F /* Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A1432A52E29BA756FA373527EAE6A10 /* Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		745E6CA78E4D04E94F626184485FE8FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6F9A59B8AF1CBF61CFD640D37E72FE04;
+			remoteInfo = "PaymentModule-PaymentsResources";
+		};
+		87B0DBE463C70893CA88202BEF9FBDBB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84C0C5812E75BCC0426F618D6D935553;
+			remoteInfo = PaymentModule;
+		};
+		9A50FD9887FBD4865FE8063E494674A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 08A16B7582F00884501F5E7A9B8E6FB4;
+			remoteInfo = Alamofire;
+		};
+		E6CF8E0D05449B6E5ABFE984E58B1AA3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 08A16B7582F00884501F5E7A9B8E6FB4;
+			remoteInfo = Alamofire;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
-		0288E97ABCE49DA3902720278809BAA8 /* MobilePaySuccessfulPayment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MobilePaySuccessfulPayment.h; path = sdk/iOS/1.8.1/MobilePayManager/MobilePaySuccessfulPayment.h; sourceTree = "<group>"; };
-		05A485F8A62E5C43ED6EB501C6EB64E6 /* Pods-PaymentSetupTesting.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PaymentSetupTesting.debug.xcconfig"; sourceTree = "<group>"; };
-		08AB03240DF92FF9FA0423019D2394E9 /* MobilePayPayment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MobilePayPayment.h; path = sdk/iOS/1.8.1/MobilePayManager/MobilePayPayment.h; sourceTree = "<group>"; };
-		0CBA658E39A72D9FBBCBB3721BE5D65B /* DIBSPreAuthorization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DIBSPreAuthorization.h; path = dibs/DIBSPreAuthorization.h; sourceTree = "<group>"; };
-		0FB89B1B13129E01821A3095212A3214 /* MobilePayCancelledPayment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MobilePayCancelledPayment.h; path = sdk/iOS/1.8.1/MobilePayManager/MobilePayCancelledPayment.h; sourceTree = "<group>"; };
-		1DF89B4055F3FF64CD4FA6B33BDB101B /* Pods-PaymentSetupTesting-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PaymentSetupTesting-dummy.m"; sourceTree = "<group>"; };
-		2F9AFAFF4D070B471F8430FD6375584C /* MobilePayManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MobilePayManager.h; path = sdk/iOS/1.8.1/MobilePayManager/MobilePayManager.h; sourceTree = "<group>"; };
-		4BA0D89DAD69C9FFAF82ACFE434C7387 /* ePayParameter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ePayParameter.h; path = epay/ePayParameter.h; sourceTree = "<group>"; };
-		777A8D24D3BD5927383AF8800E4CD2E4 /* libDIBSlib.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libDIBSlib.a; path = dibs/libDIBSlib.a; sourceTree = "<group>"; };
+		045D8F6C9F233A1D7F46B7B1B8C62A8A /* OrderConfirmationEntity.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OrderConfirmationEntity.swift; path = BasePayment/Entities/OrderConfirmationEntity.swift; sourceTree = "<group>"; };
+		0950470412B89CC767B36894F1536AB1 /* EpayBaseViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EpayBaseViewController.swift; path = Epay/ViewControllers/EpayBaseViewController.swift; sourceTree = "<group>"; };
+		0C5F6275DB12ADE1CF008CD76C7B1EBC /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Source/Response.swift; sourceTree = "<group>"; };
+		0F59594047C5C61E9748D244EE202812 /* PaymentModule-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PaymentModule-dummy.m"; sourceTree = "<group>"; };
+		102B25D6480949B1814A0E63FFB8737A /* Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-prefix.pch"; sourceTree = "<group>"; };
+		1623CD65A9E7973F4D5D888E76088D32 /* DIBSPaymentBase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DIBSPaymentBase.h; path = dibs/DIBSPaymentBase.h; sourceTree = "<group>"; };
+		1630F3C5A5DF928B5E563F8A6B4F46D4 /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
+		1888C47AB35F63B4B10423054D8439C7 /* TaskDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TaskDelegate.swift; path = Source/TaskDelegate.swift; sourceTree = "<group>"; };
+		1E76E97429D612D7C35BA2D99A1220E4 /* MobilePaySuccessfulPayment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MobilePaySuccessfulPayment.h; path = sdk/iOS/1.8.1/MobilePayManager/MobilePaySuccessfulPayment.h; sourceTree = "<group>"; };
+		211C44E1784D86821DFCBFCBB63EF888 /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Validation.swift; sourceTree = "<group>"; };
+		21527EC06F62AFA0DEB66857DC949E0F /* EditPaymentInfoViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EditPaymentInfoViewController.swift; path = DIBS/ViewControllers/EditPaymentInfo/EditPaymentInfoViewController.swift; sourceTree = "<group>"; };
+		27DE743C3CD912BF6A99F9C6EE54CACF /* EpayApiClient.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EpayApiClient.swift; path = Epay/API/EpayApiClient.swift; sourceTree = "<group>"; };
+		28D3AAAA53F75E134E1035531C98E616 /* SessionManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionManager.swift; path = Source/SessionManager.swift; sourceTree = "<group>"; };
+		2A223FE93A93BE2FE71BF1A05AB63157 /* DIBSConfigurationProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DIBSConfigurationProtocol.swift; path = DIBS/Configuration/DIBSConfigurationProtocol.swift; sourceTree = "<group>"; };
+		2C4C17A605AA00C00DB48CFE76854EB3 /* PaymentModule.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PaymentModule.swift; path = BasePayment/PaymentModule.swift; sourceTree = "<group>"; };
+		2CE2D80E97DCBF295963633E38F05210 /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
+		2DE5D851ADB1699D1F11C7C4116EF7FC /* PaymentBaseViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PaymentBaseViewController.swift; path = DIBS/ViewControllers/PaymentBaseViewController.swift; sourceTree = "<group>"; };
+		2F3CEE12469751FC9FA15B3858B93E2B /* PaymentModule-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PaymentModule-prefix.pch"; sourceTree = "<group>"; };
+		352922B99A4C525B09749878CF3F887D /* MobilePayConfigurationProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MobilePayConfigurationProtocol.swift; path = MobilePay/MobilePayConfigurationProtocol.swift; sourceTree = "<group>"; };
+		35ED6ECB815529BC48B5633CBF0E985C /* MobilePayModule.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MobilePayModule.swift; path = MobilePay/MobilePayModule.swift; sourceTree = "<group>"; };
+		3705DEAF1AC7FE49C5A5EC48AAF55786 /* SessionDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionDelegate.swift; path = Source/SessionDelegate.swift; sourceTree = "<group>"; };
+		3A1432A52E29BA756FA373527EAE6A10 /* Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Alamofire-umbrella.h"; path = "../../Headers/Public/Alamofire/Alamofire-umbrella.h"; sourceTree = "<group>"; };
+		3F0613FEA2BC7536B1440A0C955DD10A /* Pods-PaymentSetupTesting.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PaymentSetupTesting.modulemap"; sourceTree = "<group>"; };
+		42049322CC5B6E7003C9F80BE7B32C49 /* ePayLib.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ePayLib.h; path = epay/ePayLib.h; sourceTree = "<group>"; };
+		43BEB12B499413D2A4E9F68DB56EBA8E /* libAlamofire.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libAlamofire.a; path = libAlamofire.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		507AA1F1CFD4771B0B9A60D93323924E /* Alamofire.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.xcconfig; sourceTree = "<group>"; };
+		576F538F10B15B9ABEDFF0DE10B6697B /* DispatchQueue+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DispatchQueue+Alamofire.swift"; path = "Source/DispatchQueue+Alamofire.swift"; sourceTree = "<group>"; };
+		5AFE486D4F0FBCAF36A59745761B821D /* libPaymentModule.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libPaymentModule.a; path = libPaymentModule.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C81D64CB76C3B33EA9CF4D36C22DD4E /* EditPaymentInfoViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = EditPaymentInfoViewController.xib; path = DIBS/ViewControllers/EditPaymentInfo/EditPaymentInfoViewController.xib; sourceTree = "<group>"; };
+		5CF5DF39FCD72A580EB5D54A01ED2A1D /* DIBSPurchase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DIBSPurchase.h; path = dibs/DIBSPurchase.h; sourceTree = "<group>"; };
+		5E92FBA455C1A26716FBE3CA6CEF49B7 /* Pods-PaymentSetupTesting-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PaymentSetupTesting-resources.sh"; sourceTree = "<group>"; };
+		611284F30B3FC91CFBCBAFBA4412A01E /* Notifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Notifications.swift; path = Source/Notifications.swift; sourceTree = "<group>"; };
+		656EA57DBF4AD64F72A56C181DBB5B0C /* NetworkReachabilityManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkReachabilityManager.swift; path = Source/NetworkReachabilityManager.swift; sourceTree = "<group>"; };
+		7218C7E568CAD6F0D7809A52629C250C /* Pods-PaymentSetupTesting.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PaymentSetupTesting.debug.xcconfig"; sourceTree = "<group>"; };
+		737741986F89DF1062BE8F049F24BAC5 /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
+		73CA3E29578237C9702EACFFC79C423B /* libEPayLib.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libEPayLib.a; path = epay/libEPayLib.a; sourceTree = "<group>"; };
+		74328441488D3EFF6DEC31A2E921B788 /* PaymentModule-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "PaymentModule-umbrella.h"; path = "../../Headers/Public/PaymentModule/PaymentModule-umbrella.h"; sourceTree = "<group>"; };
+		75A982B179D5585ACBF9D53004B9F713 /* PaymentApiClient.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PaymentApiClient.swift; path = BasePayment/API/PaymentApiClient.swift; sourceTree = "<group>"; };
+		79FCCA40AE3606926CA46B3CAA52ED1E /* Pods-PaymentSetupTesting-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PaymentSetupTesting-dummy.m"; sourceTree = "<group>"; };
+		7CA64816308BDB9FD0D6F77E89C5A32E /* EpayConfigurationProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EpayConfigurationProtocol.swift; path = Epay/EpayConfigurationProtocol.swift; sourceTree = "<group>"; };
+		8BE719EA7EF311016BA9AF58506C4059 /* Pods-PaymentSetupTesting-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PaymentSetupTesting-acknowledgements.markdown"; sourceTree = "<group>"; };
+		91DE999949D097F765B80FB511F92B4E /* EpayModule.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EpayModule.swift; path = Epay/EpayModule.swift; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		968C350FEF95836DD931EBE60C388499 /* libEPayLib.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libEPayLib.a; path = epay/libEPayLib.a; sourceTree = "<group>"; };
-		A0B9905261D297520E7C135C93E68B90 /* Pods-PaymentSetupTesting-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PaymentSetupTesting-frameworks.sh"; sourceTree = "<group>"; };
-		A219AEA93BB8AE0A0E939C6EC2235CDB /* DIBSTicketPurchase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DIBSTicketPurchase.h; path = dibs/DIBSTicketPurchase.h; sourceTree = "<group>"; };
-		A32F5E13D08175AF8B92DA97ECD513D7 /* libPods-PaymentSetupTesting.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-PaymentSetupTesting.a"; path = "libPods-PaymentSetupTesting.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B3E97AB98DE5EF6BFEEF949849D4D07A /* libMobilePayManager1.8.1.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libMobilePayManager1.8.1.a; path = sdk/iOS/1.8.1/MobilePayManager/libMobilePayManager1.8.1.a; sourceTree = "<group>"; };
-		BEBF39BDF86036959255155A314AB062 /* DIBSPaymentBase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DIBSPaymentBase.h; path = dibs/DIBSPaymentBase.h; sourceTree = "<group>"; };
-		C67B721F65ED466876631AF7827B6D08 /* DIBSPaymentServerService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DIBSPaymentServerService.h; path = dibs/DIBSPaymentServerService.h; sourceTree = "<group>"; };
-		CC046DF101A7AB422648FE97A3E39CB2 /* Pods-PaymentSetupTesting.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PaymentSetupTesting.release.xcconfig"; sourceTree = "<group>"; };
-		CF3FE039229EF2A9C1087892FC894A65 /* ePayLib.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ePayLib.h; path = epay/ePayLib.h; sourceTree = "<group>"; };
-		DB8EA537BA09C169ACE937BEC69ED7BF /* DIBSPaymentView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DIBSPaymentView.h; path = dibs/DIBSPaymentView.h; sourceTree = "<group>"; };
-		DE424E988C3B244FE2B1FC7402B12062 /* Pods-PaymentSetupTesting-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PaymentSetupTesting-resources.sh"; sourceTree = "<group>"; };
-		E831CABB81C5D9140BBC947C633B4BE7 /* Pods-PaymentSetupTesting-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PaymentSetupTesting-acknowledgements.markdown"; sourceTree = "<group>"; };
-		EBFD235199BA2E42DBBA9EE878D13D8A /* DIBSPreAuthPurchase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DIBSPreAuthPurchase.h; path = dibs/DIBSPreAuthPurchase.h; sourceTree = "<group>"; };
-		F5D1117999A48F0964C4002647E65422 /* Pods-PaymentSetupTesting-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PaymentSetupTesting-acknowledgements.plist"; sourceTree = "<group>"; };
-		FFA181B9E1AA6AF9FDB0F350889B68A1 /* DIBSPurchase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DIBSPurchase.h; path = dibs/DIBSPurchase.h; sourceTree = "<group>"; };
+		9453A6BF4697DABC01C455F924ABC533 /* PaymentModuleConfiguration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PaymentModuleConfiguration.swift; path = BasePayment/PaymentModuleConfiguration.swift; sourceTree = "<group>"; };
+		971D70D56D07B2E228E6B5A521D9059D /* Pods-PaymentSetupTesting-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PaymentSetupTesting-frameworks.sh"; sourceTree = "<group>"; };
+		976B298D64DDA6C741E4FF51C2FFBCF7 /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Source/Result.swift; sourceTree = "<group>"; };
+		99EAB1EBDB548FF71CC3A06315A1F0E6 /* MobilePayCancelledPayment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MobilePayCancelledPayment.h; path = sdk/iOS/1.8.1/MobilePayManager/MobilePayCancelledPayment.h; sourceTree = "<group>"; };
+		9A64AFF300C9FE03186DE5B7FD51CC07 /* DIBSPreAuthPurchase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DIBSPreAuthPurchase.h; path = dibs/DIBSPreAuthPurchase.h; sourceTree = "<group>"; };
+		9BBC9AEF95355DF1B70F145868AD89A3 /* AFError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AFError.swift; path = Source/AFError.swift; sourceTree = "<group>"; };
+		9C12A015B31710DE5DF8CB232569FD42 /* DIBSPaymentServerService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DIBSPaymentServerService.h; path = dibs/DIBSPaymentServerService.h; sourceTree = "<group>"; };
+		9C3688FD8CB78F8A26281BDBBC2E43A1 /* DIBSPaymentViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DIBSPaymentViewController.swift; path = DIBS/ViewControllers/DIBSPaymentViewController.swift; sourceTree = "<group>"; };
+		B946A11F362C67FF41ACF2EFC21A4C91 /* PaymentsResources.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = PaymentsResources.bundle; path = "PaymentModule-PaymentsResources.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA41E52C348689D181F7F1FD44F1F456 /* libPods-PaymentSetupTesting.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-PaymentSetupTesting.a"; path = "libPods-PaymentSetupTesting.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAD7D06B75B1326E82B2DC982D228492 /* MultipartFormData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = Source/MultipartFormData.swift; sourceTree = "<group>"; };
+		BB612EA23ED10AD5D0DAC02DB34ADFDF /* MobilePayManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MobilePayManager.h; path = sdk/iOS/1.8.1/MobilePayManager/MobilePayManager.h; sourceTree = "<group>"; };
+		BF3EB560A13D632DA2C96003BD517128 /* Pods-PaymentSetupTesting-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PaymentSetupTesting-acknowledgements.plist"; sourceTree = "<group>"; };
+		C48407F1B8205304D9E870AF9F492B2A /* Timeline.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Timeline.swift; path = Source/Timeline.swift; sourceTree = "<group>"; };
+		C4E10E8FBA8588194429A4E1779C63A3 /* Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; name = Alamofire.modulemap; path = ../../Headers/Public/Alamofire/Alamofire.modulemap; sourceTree = "<group>"; };
+		C802C82D9A26079742B652C78F856B73 /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Request.swift; sourceTree = "<group>"; };
+		C8AD035D81EEB7EF32F3DB6045504654 /* ResourceBundle-PaymentsResources-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-PaymentsResources-Info.plist"; sourceTree = "<group>"; };
+		C9FEF2775F062C75382861634CFF7EC1 /* DIBSAppearanceConfiguration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DIBSAppearanceConfiguration.swift; path = DIBS/Configuration/DIBSAppearanceConfiguration.swift; sourceTree = "<group>"; };
+		CC345470E8AA223C920C6AB50C3C2BF8 /* MobilePayPayment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MobilePayPayment.h; path = sdk/iOS/1.8.1/MobilePayManager/MobilePayPayment.h; sourceTree = "<group>"; };
+		CF50F12986AC544BE0757D1E3B8DBB32 /* DIBSTicketPurchase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DIBSTicketPurchase.h; path = dibs/DIBSTicketPurchase.h; sourceTree = "<group>"; };
+		D0B56DE8F129D5F7CABC45743ECBC04F /* PaymentModule.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PaymentModule.xcconfig; sourceTree = "<group>"; };
+		D0E448FBD934E771ACE13507A6027B7A /* EpayEditViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EpayEditViewController.swift; path = Epay/ViewControllers/EpayEditViewController.swift; sourceTree = "<group>"; };
+		D3376168F905CA77FDB671A21092DD86 /* DIBSApiClient.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DIBSApiClient.swift; path = DIBS/API/DIBSApiClient.swift; sourceTree = "<group>"; };
+		D6C993B0FB72E7B5399D1DD5DA9AE499 /* PaymentModuleConfigurationProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PaymentModuleConfigurationProtocol.swift; path = BasePayment/PaymentModuleConfigurationProtocol.swift; sourceTree = "<group>"; };
+		DA05EC1119E042DAC33AAFAA8AE5FE79 /* libDIBSlib.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libDIBSlib.a; path = dibs/libDIBSlib.a; sourceTree = "<group>"; };
+		DC631CF199B8FC010C3895787C6BA0FF /* libMobilePayManager1.8.1.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libMobilePayManager1.8.1.a; path = sdk/iOS/1.8.1/MobilePayManager/libMobilePayManager1.8.1.a; sourceTree = "<group>"; };
+		DC97456095D59948FBD4C6464045A6F5 /* DibsModule.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DibsModule.swift; path = DIBS/DibsModule.swift; sourceTree = "<group>"; };
+		DCFF1ACD0CC8A30DF019B7940E686DE9 /* PaymentModule.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; name = PaymentModule.modulemap; path = ../../Headers/Public/PaymentModule/PaymentModule.modulemap; sourceTree = "<group>"; };
+		DDB9853980220B4140B311871AC57A72 /* Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Alamofire-dummy.m"; sourceTree = "<group>"; };
+		E0E1E64F3F80DC9C1AD62ACC4F9151F7 /* Pods-PaymentSetupTesting-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PaymentSetupTesting-umbrella.h"; sourceTree = "<group>"; };
+		E14868E6F5A9F6BE302088A1BD02080E /* Pods-PaymentSetupTesting.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PaymentSetupTesting.release.xcconfig"; sourceTree = "<group>"; };
+		E2B0A55EF9818282C481EF7C10430A08 /* DibsRepository.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DibsRepository.swift; path = DIBS/DataAccess/DibsRepository.swift; sourceTree = "<group>"; };
+		E3CD82EE5A822A7727ED549573205132 /* ePayParameter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ePayParameter.h; path = epay/ePayParameter.h; sourceTree = "<group>"; };
+		E7EE723643E395C29147DDE0A2CFA712 /* ServerTrustPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerTrustPolicy.swift; path = Source/ServerTrustPolicy.swift; sourceTree = "<group>"; };
+		EF78982AEEEDB4F7EA0F5A2078C000BB /* DIBSPaymentView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DIBSPaymentView.h; path = dibs/DIBSPaymentView.h; sourceTree = "<group>"; };
+		F2EA276BA3F28AAF2D872B007A8AB87B /* DIBSPreAuthorization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DIBSPreAuthorization.h; path = dibs/DIBSPreAuthorization.h; sourceTree = "<group>"; };
+		F85CBE8C0D48F8D913B23CFC214B5F3C /* EpayPaymentViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EpayPaymentViewController.swift; path = Epay/ViewControllers/EpayPaymentViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		A8022A913754637C7DF9ECEAAB5212FB /* Frameworks */ = {
+		4F3B7B8D9C991CB084295797C045670C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CE27F505F2C5AC6DCE15D98C3AAD8FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A83FD38658D79880F8612286669196FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAFD91D07E69C5D3B92EE7FCA609E648 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -49,43 +200,69 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		026653F2D068A2CA9C6CB0F7377E353C /* Pods-PaymentSetupTesting */ = {
+		06BFD12344C0E41DB3D27FDC6728E223 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				E831CABB81C5D9140BBC947C633B4BE7 /* Pods-PaymentSetupTesting-acknowledgements.markdown */,
-				F5D1117999A48F0964C4002647E65422 /* Pods-PaymentSetupTesting-acknowledgements.plist */,
-				1DF89B4055F3FF64CD4FA6B33BDB101B /* Pods-PaymentSetupTesting-dummy.m */,
-				A0B9905261D297520E7C135C93E68B90 /* Pods-PaymentSetupTesting-frameworks.sh */,
-				DE424E988C3B244FE2B1FC7402B12062 /* Pods-PaymentSetupTesting-resources.sh */,
-				05A485F8A62E5C43ED6EB501C6EB64E6 /* Pods-PaymentSetupTesting.debug.xcconfig */,
-				CC046DF101A7AB422648FE97A3E39CB2 /* Pods-PaymentSetupTesting.release.xcconfig */,
+				5C81D64CB76C3B33EA9CF4D36C22DD4E /* EditPaymentInfoViewController.xib */,
 			);
-			name = "Pods-PaymentSetupTesting";
-			path = "Target Support Files/Pods-PaymentSetupTesting";
+			name = Resources;
 			sourceTree = "<group>";
 		};
-		026CA508FB6E5F82C1441E4BE14F61B3 /* DIBS */ = {
+		0B0617DF08040E94FB17A84999C7E821 /* Alamofire */ = {
 			isa = PBXGroup;
 			children = (
-				BEBF39BDF86036959255155A314AB062 /* DIBSPaymentBase.h */,
-				C67B721F65ED466876631AF7827B6D08 /* DIBSPaymentServerService.h */,
-				DB8EA537BA09C169ACE937BEC69ED7BF /* DIBSPaymentView.h */,
-				0CBA658E39A72D9FBBCBB3721BE5D65B /* DIBSPreAuthorization.h */,
-				EBFD235199BA2E42DBBA9EE878D13D8A /* DIBSPreAuthPurchase.h */,
-				FFA181B9E1AA6AF9FDB0F350889B68A1 /* DIBSPurchase.h */,
-				A219AEA93BB8AE0A0E939C6EC2235CDB /* DIBSTicketPurchase.h */,
-				3F2A43B3FAE3AD9F36C9335570813F84 /* Frameworks */,
+				9BBC9AEF95355DF1B70F145868AD89A3 /* AFError.swift */,
+				1630F3C5A5DF928B5E563F8A6B4F46D4 /* Alamofire.swift */,
+				576F538F10B15B9ABEDFF0DE10B6697B /* DispatchQueue+Alamofire.swift */,
+				BAD7D06B75B1326E82B2DC982D228492 /* MultipartFormData.swift */,
+				656EA57DBF4AD64F72A56C181DBB5B0C /* NetworkReachabilityManager.swift */,
+				611284F30B3FC91CFBCBAFBA4412A01E /* Notifications.swift */,
+				2CE2D80E97DCBF295963633E38F05210 /* ParameterEncoding.swift */,
+				C802C82D9A26079742B652C78F856B73 /* Request.swift */,
+				0C5F6275DB12ADE1CF008CD76C7B1EBC /* Response.swift */,
+				737741986F89DF1062BE8F049F24BAC5 /* ResponseSerialization.swift */,
+				976B298D64DDA6C741E4FF51C2FFBCF7 /* Result.swift */,
+				E7EE723643E395C29147DDE0A2CFA712 /* ServerTrustPolicy.swift */,
+				3705DEAF1AC7FE49C5A5EC48AAF55786 /* SessionDelegate.swift */,
+				28D3AAAA53F75E134E1035531C98E616 /* SessionManager.swift */,
+				1888C47AB35F63B4B10423054D8439C7 /* TaskDelegate.swift */,
+				C48407F1B8205304D9E870AF9F492B2A /* Timeline.swift */,
+				211C44E1784D86821DFCBFCBB63EF888 /* Validation.swift */,
+				FFE43D1D4C8EFD943A5BAF041D224F3B /* Support Files */,
 			);
-			name = DIBS;
-			path = DIBS;
+			name = Alamofire;
+			path = Alamofire;
 			sourceTree = "<group>";
 		};
-		0F05602195184FCAA3A2B2E5C0ABBA65 /* Frameworks */ = {
+		0DD6BFAB00F6DCD40FAB2CAC0A42D4D9 /* PaymentModule */ = {
 			isa = PBXGroup;
 			children = (
-				968C350FEF95836DD931EBE60C388499 /* libEPayLib.a */,
+				D3376168F905CA77FDB671A21092DD86 /* DIBSApiClient.swift */,
+				C9FEF2775F062C75382861634CFF7EC1 /* DIBSAppearanceConfiguration.swift */,
+				2A223FE93A93BE2FE71BF1A05AB63157 /* DIBSConfigurationProtocol.swift */,
+				DC97456095D59948FBD4C6464045A6F5 /* DibsModule.swift */,
+				9C3688FD8CB78F8A26281BDBBC2E43A1 /* DIBSPaymentViewController.swift */,
+				E2B0A55EF9818282C481EF7C10430A08 /* DibsRepository.swift */,
+				21527EC06F62AFA0DEB66857DC949E0F /* EditPaymentInfoViewController.swift */,
+				27DE743C3CD912BF6A99F9C6EE54CACF /* EpayApiClient.swift */,
+				0950470412B89CC767B36894F1536AB1 /* EpayBaseViewController.swift */,
+				7CA64816308BDB9FD0D6F77E89C5A32E /* EpayConfigurationProtocol.swift */,
+				D0E448FBD934E771ACE13507A6027B7A /* EpayEditViewController.swift */,
+				91DE999949D097F765B80FB511F92B4E /* EpayModule.swift */,
+				F85CBE8C0D48F8D913B23CFC214B5F3C /* EpayPaymentViewController.swift */,
+				352922B99A4C525B09749878CF3F887D /* MobilePayConfigurationProtocol.swift */,
+				35ED6ECB815529BC48B5633CBF0E985C /* MobilePayModule.swift */,
+				045D8F6C9F233A1D7F46B7B1B8C62A8A /* OrderConfirmationEntity.swift */,
+				75A982B179D5585ACBF9D53004B9F713 /* PaymentApiClient.swift */,
+				2DE5D851ADB1699D1F11C7C4116EF7FC /* PaymentBaseViewController.swift */,
+				2C4C17A605AA00C00DB48CFE76854EB3 /* PaymentModule.swift */,
+				9453A6BF4697DABC01C455F924ABC533 /* PaymentModuleConfiguration.swift */,
+				D6C993B0FB72E7B5399D1DD5DA9AE499 /* PaymentModuleConfigurationProtocol.swift */,
+				06BFD12344C0E41DB3D27FDC6728E223 /* Resources */,
+				2BD82FA0BF2F4114F01913CEE59D675B /* Support Files */,
 			);
-			name = Frameworks;
+			name = PaymentModule;
+			path = PaymentModule;
 			sourceTree = "<group>";
 		};
 		0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */ = {
@@ -95,31 +272,75 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		3F2A43B3FAE3AD9F36C9335570813F84 /* Frameworks */ = {
+		17BEAE814022B59E4FBAA8D3045B5B50 /* Pods-PaymentSetupTesting */ = {
 			isa = PBXGroup;
 			children = (
-				777A8D24D3BD5927383AF8800E4CD2E4 /* libDIBSlib.a */,
+				3F0613FEA2BC7536B1440A0C955DD10A /* Pods-PaymentSetupTesting.modulemap */,
+				8BE719EA7EF311016BA9AF58506C4059 /* Pods-PaymentSetupTesting-acknowledgements.markdown */,
+				BF3EB560A13D632DA2C96003BD517128 /* Pods-PaymentSetupTesting-acknowledgements.plist */,
+				79FCCA40AE3606926CA46B3CAA52ED1E /* Pods-PaymentSetupTesting-dummy.m */,
+				971D70D56D07B2E228E6B5A521D9059D /* Pods-PaymentSetupTesting-frameworks.sh */,
+				5E92FBA455C1A26716FBE3CA6CEF49B7 /* Pods-PaymentSetupTesting-resources.sh */,
+				E0E1E64F3F80DC9C1AD62ACC4F9151F7 /* Pods-PaymentSetupTesting-umbrella.h */,
+				7218C7E568CAD6F0D7809A52629C250C /* Pods-PaymentSetupTesting.debug.xcconfig */,
+				E14868E6F5A9F6BE302088A1BD02080E /* Pods-PaymentSetupTesting.release.xcconfig */,
+			);
+			name = "Pods-PaymentSetupTesting";
+			path = "Target Support Files/Pods-PaymentSetupTesting";
+			sourceTree = "<group>";
+		};
+		2BD82FA0BF2F4114F01913CEE59D675B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DCFF1ACD0CC8A30DF019B7940E686DE9 /* PaymentModule.modulemap */,
+				D0B56DE8F129D5F7CABC45743ECBC04F /* PaymentModule.xcconfig */,
+				0F59594047C5C61E9748D244EE202812 /* PaymentModule-dummy.m */,
+				2F3CEE12469751FC9FA15B3858B93E2B /* PaymentModule-prefix.pch */,
+				74328441488D3EFF6DEC31A2E921B788 /* PaymentModule-umbrella.h */,
+				C8AD035D81EEB7EF32F3DB6045504654 /* ResourceBundle-PaymentsResources-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/PaymentModule";
+			sourceTree = "<group>";
+		};
+		474C495614286FD47B7CC533AF3FC353 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DA05EC1119E042DAC33AAFAA8AE5FE79 /* libDIBSlib.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		5F443DC2ECC3030BCF41B9D5BFF89FFF /* ePay */ = {
+		5342D16C783582544F53BA2343D9942F /* ePay */ = {
 			isa = PBXGroup;
 			children = (
-				CF3FE039229EF2A9C1087892FC894A65 /* ePayLib.h */,
-				4BA0D89DAD69C9FFAF82ACFE434C7387 /* ePayParameter.h */,
-				0F05602195184FCAA3A2B2E5C0ABBA65 /* Frameworks */,
+				42049322CC5B6E7003C9F80BE7B32C49 /* ePayLib.h */,
+				E3CD82EE5A822A7727ED549573205132 /* ePayParameter.h */,
+				E9864A22E2EF37B5E6DCE5BC9450E829 /* Frameworks */,
 			);
 			name = ePay;
 			path = ePay;
 			sourceTree = "<group>";
 		};
-		61374B938A6A44BB9E0A486A909AB982 /* Targets Support Files */ = {
+		53ED3E60038B8DF615A5FD99DF061CDB /* MobilePay-AppSwitch-SDK */ = {
 			isa = PBXGroup;
 			children = (
-				026653F2D068A2CA9C6CB0F7377E353C /* Pods-PaymentSetupTesting */,
+				99EAB1EBDB548FF71CC3A06315A1F0E6 /* MobilePayCancelledPayment.h */,
+				BB612EA23ED10AD5D0DAC02DB34ADFDF /* MobilePayManager.h */,
+				CC345470E8AA223C920C6AB50C3C2BF8 /* MobilePayPayment.h */,
+				1E76E97429D612D7C35BA2D99A1220E4 /* MobilePaySuccessfulPayment.h */,
+				5E4E290FC8C1AD1D4E250655C61D65CB /* Frameworks */,
 			);
-			name = "Targets Support Files";
+			name = "MobilePay-AppSwitch-SDK";
+			path = "MobilePay-AppSwitch-SDK";
+			sourceTree = "<group>";
+		};
+		5E4E290FC8C1AD1D4E250655C61D65CB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DC631CF199B8FC010C3895787C6BA0FF /* libMobilePayManager1.8.1.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -127,79 +348,182 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */,
-				EE89F3F536F3BA7BD1BD233D7F8FC94E /* Pods */,
-				D527A665D0A1C160DD172B7076B30CBC /* Products */,
-				61374B938A6A44BB9E0A486A909AB982 /* Targets Support Files */,
+				F83588CE13880530A4FE5D57C564A0F2 /* Pods */,
+				EA3BF988D4F17750A473FC80BC5E4BE9 /* Products */,
+				E27DE44EE9B1638B64114FCD103882E5 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		B9744CEBD38486B41F47536F2993453F /* Frameworks */ = {
+		C878CE2E4F6E667E3E12D0F0B503DA92 /* DIBS */ = {
 			isa = PBXGroup;
 			children = (
-				B3E97AB98DE5EF6BFEEF949849D4D07A /* libMobilePayManager1.8.1.a */,
+				1623CD65A9E7973F4D5D888E76088D32 /* DIBSPaymentBase.h */,
+				9C12A015B31710DE5DF8CB232569FD42 /* DIBSPaymentServerService.h */,
+				EF78982AEEEDB4F7EA0F5A2078C000BB /* DIBSPaymentView.h */,
+				F2EA276BA3F28AAF2D872B007A8AB87B /* DIBSPreAuthorization.h */,
+				9A64AFF300C9FE03186DE5B7FD51CC07 /* DIBSPreAuthPurchase.h */,
+				5CF5DF39FCD72A580EB5D54A01ED2A1D /* DIBSPurchase.h */,
+				CF50F12986AC544BE0757D1E3B8DBB32 /* DIBSTicketPurchase.h */,
+				474C495614286FD47B7CC533AF3FC353 /* Frameworks */,
+			);
+			name = DIBS;
+			path = DIBS;
+			sourceTree = "<group>";
+		};
+		E27DE44EE9B1638B64114FCD103882E5 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				17BEAE814022B59E4FBAA8D3045B5B50 /* Pods-PaymentSetupTesting */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		E9864A22E2EF37B5E6DCE5BC9450E829 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				73CA3E29578237C9702EACFFC79C423B /* libEPayLib.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		D527A665D0A1C160DD172B7076B30CBC /* Products */ = {
+		EA3BF988D4F17750A473FC80BC5E4BE9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A32F5E13D08175AF8B92DA97ECD513D7 /* libPods-PaymentSetupTesting.a */,
+				43BEB12B499413D2A4E9F68DB56EBA8E /* libAlamofire.a */,
+				5AFE486D4F0FBCAF36A59745761B821D /* libPaymentModule.a */,
+				BA41E52C348689D181F7F1FD44F1F456 /* libPods-PaymentSetupTesting.a */,
+				B946A11F362C67FF41ACF2EFC21A4C91 /* PaymentsResources.bundle */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		EE7F3336148FF1B46661166D96D9845B /* MobilePay-AppSwitch-SDK */ = {
+		F83588CE13880530A4FE5D57C564A0F2 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				0FB89B1B13129E01821A3095212A3214 /* MobilePayCancelledPayment.h */,
-				2F9AFAFF4D070B471F8430FD6375584C /* MobilePayManager.h */,
-				08AB03240DF92FF9FA0423019D2394E9 /* MobilePayPayment.h */,
-				0288E97ABCE49DA3902720278809BAA8 /* MobilePaySuccessfulPayment.h */,
-				B9744CEBD38486B41F47536F2993453F /* Frameworks */,
-			);
-			name = "MobilePay-AppSwitch-SDK";
-			path = "MobilePay-AppSwitch-SDK";
-			sourceTree = "<group>";
-		};
-		EE89F3F536F3BA7BD1BD233D7F8FC94E /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				026CA508FB6E5F82C1441E4BE14F61B3 /* DIBS */,
-				5F443DC2ECC3030BCF41B9D5BFF89FFF /* ePay */,
-				EE7F3336148FF1B46661166D96D9845B /* MobilePay-AppSwitch-SDK */,
+				0B0617DF08040E94FB17A84999C7E821 /* Alamofire */,
+				C878CE2E4F6E667E3E12D0F0B503DA92 /* DIBS */,
+				5342D16C783582544F53BA2343D9942F /* ePay */,
+				53ED3E60038B8DF615A5FD99DF061CDB /* MobilePay-AppSwitch-SDK */,
+				0DD6BFAB00F6DCD40FAB2CAC0A42D4D9 /* PaymentModule */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		FFE43D1D4C8EFD943A5BAF041D224F3B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C4E10E8FBA8588194429A4E1779C63A3 /* Alamofire.modulemap */,
+				507AA1F1CFD4771B0B9A60D93323924E /* Alamofire.xcconfig */,
+				DDB9853980220B4140B311871AC57A72 /* Alamofire-dummy.m */,
+				102B25D6480949B1814A0E63FFB8737A /* Alamofire-prefix.pch */,
+				3A1432A52E29BA756FA373527EAE6A10 /* Alamofire-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Alamofire";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		E05FFD020FF28672790CF45DC2EFE6C4 /* Headers */ = {
+		A57482C0848FE7E8A4659A132764E2E4 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F22D5CE1470B5AB9301BAFC32F53DF0F /* Alamofire-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCC82945076DC4303973C42E67D08A72 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF4913C4F390C2B2F2B44B7E10382019 /* Pods-PaymentSetupTesting-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E67822F4C4DC55A5C5A62E61F1856A90 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C899179CD8BC56430C828368680C939 /* PaymentModule-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		0BCCEB82FFDC75F9BEA272C838828C9F /* Pods-PaymentSetupTesting */ = {
+		08A16B7582F00884501F5E7A9B8E6FB4 /* Alamofire */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B62B78FEA2BBBCE929438113252551D6 /* Build configuration list for PBXNativeTarget "Pods-PaymentSetupTesting" */;
+			buildConfigurationList = 7F069918FA75D71DAA1B2EBCE2A82AFE /* Build configuration list for PBXNativeTarget "Alamofire" */;
 			buildPhases = (
-				E05FFD020FF28672790CF45DC2EFE6C4 /* Headers */,
-				C05621D79E1328C77ABFB3185F2F7722 /* Sources */,
-				A8022A913754637C7DF9ECEAAB5212FB /* Frameworks */,
+				A57482C0848FE7E8A4659A132764E2E4 /* Headers */,
+				32AD760B54579FD98DEB66176FB66EFE /* Sources */,
+				4F3B7B8D9C991CB084295797C045670C /* Frameworks */,
+				BB2B2D8276577B5631EBD2527E99FE58 /* Copy generated compatibility header */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
+			name = Alamofire;
+			productName = Alamofire;
+			productReference = 43BEB12B499413D2A4E9F68DB56EBA8E /* libAlamofire.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		6F9A59B8AF1CBF61CFD640D37E72FE04 /* PaymentModule-PaymentsResources */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6878456576E67F453E0E93A076765C41 /* Build configuration list for PBXNativeTarget "PaymentModule-PaymentsResources" */;
+			buildPhases = (
+				E433054905A2A33B1C92E93470685CEB /* Sources */,
+				A83FD38658D79880F8612286669196FB /* Frameworks */,
+				99DEBF8B1872C033EAE9BA6C74162E85 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PaymentModule-PaymentsResources";
+			productName = "PaymentModule-PaymentsResources";
+			productReference = B946A11F362C67FF41ACF2EFC21A4C91 /* PaymentsResources.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		84C0C5812E75BCC0426F618D6D935553 /* PaymentModule */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77E0AD20508A8CB633E1EB458C5D3ECC /* Build configuration list for PBXNativeTarget "PaymentModule" */;
+			buildPhases = (
+				E67822F4C4DC55A5C5A62E61F1856A90 /* Headers */,
+				26B5A5918387A2BF8160171C5E4116CA /* Sources */,
+				AAFD91D07E69C5D3B92EE7FCA609E648 /* Frameworks */,
+				52A46F6A0FC18A6B7071ED8545A51EB8 /* Copy generated compatibility header */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE3DE437EA4BA7B04DB5427A02A68FE4 /* PBXTargetDependency */,
+				D13EC32908F7AFA4F6B9B2DB2B1A8504 /* PBXTargetDependency */,
+			);
+			name = PaymentModule;
+			productName = PaymentModule;
+			productReference = 5AFE486D4F0FBCAF36A59745761B821D /* libPaymentModule.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		A4D3277BFD5D053ED0C98510E9B23A85 /* Pods-PaymentSetupTesting */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 297C4CADEBD181C01E1CD926E02D4644 /* Build configuration list for PBXNativeTarget "Pods-PaymentSetupTesting" */;
+			buildPhases = (
+				BCC82945076DC4303973C42E67D08A72 /* Headers */,
+				6E92E80C05A8F05C029E0F9E3DEDD64C /* Sources */,
+				7CE27F505F2C5AC6DCE15D98C3AAD8FA /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				321C10D6AF810101C7EB89154AFE146A /* PBXTargetDependency */,
+				60A79CB2CB867E4EB892F57621849136 /* PBXTargetDependency */,
+			);
 			name = "Pods-PaymentSetupTesting";
 			productName = "Pods-PaymentSetupTesting";
-			productReference = A32F5E13D08175AF8B92DA97ECD513D7 /* libPods-PaymentSetupTesting.a */;
+			productReference = BA41E52C348689D181F7F1FD44F1F456 /* libPods-PaymentSetupTesting.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -219,45 +543,282 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = D527A665D0A1C160DD172B7076B30CBC /* Products */;
+			productRefGroup = EA3BF988D4F17750A473FC80BC5E4BE9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0BCCEB82FFDC75F9BEA272C838828C9F /* Pods-PaymentSetupTesting */,
+				08A16B7582F00884501F5E7A9B8E6FB4 /* Alamofire */,
+				84C0C5812E75BCC0426F618D6D935553 /* PaymentModule */,
+				6F9A59B8AF1CBF61CFD640D37E72FE04 /* PaymentModule-PaymentsResources */,
+				A4D3277BFD5D053ED0C98510E9B23A85 /* Pods-PaymentSetupTesting */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		99DEBF8B1872C033EAE9BA6C74162E85 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				995342CEAD25C47F61EF609DA72DC9C5 /* EditPaymentInfoViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		52A46F6A0FC18A6B7071ED8545A51EB8 /* Copy generated compatibility header */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h",
+				"${PODS_ROOT}/Headers/Public/PaymentModule/PaymentModule.modulemap",
+				"${PODS_ROOT}/Headers/Public/PaymentModule/PaymentModule-umbrella.h",
+			);
+			name = "Copy generated compatibility header";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap",
+				"${BUILT_PRODUCTS_DIR}/PaymentModule-umbrella.h",
+				"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "COMPATIBILITY_HEADER_PATH=\"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h\"\nMODULE_MAP_PATH=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap\"\n\nditto \"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h\" \"${COMPATIBILITY_HEADER_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/PaymentModule/PaymentModule.modulemap\" \"${MODULE_MAP_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/PaymentModule/PaymentModule-umbrella.h\" \"${BUILT_PRODUCTS_DIR}\"\nprintf \"\\n\\nmodule ${PRODUCT_MODULE_NAME}.Swift {\\n  header \\\"${COMPATIBILITY_HEADER_PATH}\\\"\\n  requires objc\\n}\\n\" >> \"${MODULE_MAP_PATH}\"\n";
+			showEnvVarsInLog = 1;
+		};
+		BB2B2D8276577B5631EBD2527E99FE58 /* Copy generated compatibility header */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h",
+				"${PODS_ROOT}/Headers/Public/Alamofire/Alamofire.modulemap",
+				"${PODS_ROOT}/Headers/Public/Alamofire/Alamofire-umbrella.h",
+			);
+			name = "Copy generated compatibility header";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap",
+				"${BUILT_PRODUCTS_DIR}/Alamofire-umbrella.h",
+				"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "COMPATIBILITY_HEADER_PATH=\"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h\"\nMODULE_MAP_PATH=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap\"\n\nditto \"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h\" \"${COMPATIBILITY_HEADER_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/Alamofire/Alamofire.modulemap\" \"${MODULE_MAP_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/Alamofire/Alamofire-umbrella.h\" \"${BUILT_PRODUCTS_DIR}\"\nprintf \"\\n\\nmodule ${PRODUCT_MODULE_NAME}.Swift {\\n  header \\\"${COMPATIBILITY_HEADER_PATH}\\\"\\n  requires objc\\n}\\n\" >> \"${MODULE_MAP_PATH}\"\n";
+			showEnvVarsInLog = 1;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		C05621D79E1328C77ABFB3185F2F7722 /* Sources */ = {
+		26B5A5918387A2BF8160171C5E4116CA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ED6ED21E2D533D649632109BB788B2DF /* Pods-PaymentSetupTesting-dummy.m in Sources */,
+				345319CED66C632F311CD49F2608AD73 /* DIBSApiClient.swift in Sources */,
+				3DDCA258D16FC48120ADFE4BA405F573 /* DIBSAppearanceConfiguration.swift in Sources */,
+				E1BA2037C66C81446F174CB2341110B5 /* DIBSConfigurationProtocol.swift in Sources */,
+				BB762712EFCE79D234EA27593A5F5312 /* DibsModule.swift in Sources */,
+				7BC8DA4E93B1971E5BC9B049AD014A3A /* DIBSPaymentViewController.swift in Sources */,
+				59AB5F832FF05888E13C6FF6264798CB /* DibsRepository.swift in Sources */,
+				ADE282903F2420AB6AF7FCB78FD00535 /* EditPaymentInfoViewController.swift in Sources */,
+				B80D0F2AEBE77CD8F9F530FA50127469 /* EpayApiClient.swift in Sources */,
+				99F1F80D608D10CAD93DAC3AC098C4B7 /* EpayBaseViewController.swift in Sources */,
+				1E10BF6D988EEAC012F73DED093CA959 /* EpayConfigurationProtocol.swift in Sources */,
+				4E2166B153EA2A7444AADF63927311EF /* EpayEditViewController.swift in Sources */,
+				69B7D27E614AD93626EE5013267D1E7C /* EpayModule.swift in Sources */,
+				A4D3F3BA9A538C40B5A151CA6895A0CB /* EpayPaymentViewController.swift in Sources */,
+				0141431D590CEAC37CCA7D4A8C66211A /* MobilePayConfigurationProtocol.swift in Sources */,
+				1D05C5D42771B5C5CA3E89806BF3C265 /* MobilePayModule.swift in Sources */,
+				DACF8D436F6849026C0A20734F94B883 /* OrderConfirmationEntity.swift in Sources */,
+				60328352B8BB6FCD96BDF971E85EF2DF /* PaymentApiClient.swift in Sources */,
+				575224D31477621F5F75F60A52DB3555 /* PaymentBaseViewController.swift in Sources */,
+				DB6B7AA2E4CD8E61A1ED901AE8A0F63A /* PaymentModule-dummy.m in Sources */,
+				BA5CE856DF9AAD53B1792B5B9C602E59 /* PaymentModule.swift in Sources */,
+				65FB6BE95029EBC2243EFCB122C52A2A /* PaymentModuleConfiguration.swift in Sources */,
+				E83114CDF6976DA494E2128F47617FC7 /* PaymentModuleConfigurationProtocol.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32AD760B54579FD98DEB66176FB66EFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66DAA427DFCF69455F88D50EBDCEC978 /* AFError.swift in Sources */,
+				0C966E828109E9D987A3C0828541F7C6 /* Alamofire-dummy.m in Sources */,
+				BEFECBD83E818B612CCCF26BF42C9A07 /* Alamofire.swift in Sources */,
+				3CE316FB1EA8B67619B8F1F69C2D7DEF /* DispatchQueue+Alamofire.swift in Sources */,
+				032BCEB41AEBEA0F759440DF02E10453 /* MultipartFormData.swift in Sources */,
+				8BB170EF376EB2F719D596A71E651FDF /* NetworkReachabilityManager.swift in Sources */,
+				E9CFA3B1AD0E1D6C406D21140785BEE4 /* Notifications.swift in Sources */,
+				6EB4987366B9F2ACFE6FAFDE37353A39 /* ParameterEncoding.swift in Sources */,
+				59A379D2EB8028CB07331F2E18B6FC40 /* Request.swift in Sources */,
+				B15AE25F2284AC71F87FAC7AAE5EA393 /* Response.swift in Sources */,
+				B6E153E514E37B85F25975A0E2B34FEC /* ResponseSerialization.swift in Sources */,
+				EE7A9102DB787F4E64A07A51B99B36DB /* Result.swift in Sources */,
+				E09041A10CE1271F31325AA84E3C6A33 /* ServerTrustPolicy.swift in Sources */,
+				E358EB7574B94EF931AF6B8561785CEB /* SessionDelegate.swift in Sources */,
+				668DA2358C17E58C237B811862AE4A47 /* SessionManager.swift in Sources */,
+				258E71ECF3D900477A267306555F9A8E /* TaskDelegate.swift in Sources */,
+				CA6BD52AB35379D1EC283FEC9152674D /* Timeline.swift in Sources */,
+				5BC1C61CB83F16DFD89AC9A78CDFADC3 /* Validation.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E92E80C05A8F05C029E0F9E3DEDD64C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A0D6DD7E1CE756058D709EF71B8A188 /* Pods-PaymentSetupTesting-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E433054905A2A33B1C92E93470685CEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		321C10D6AF810101C7EB89154AFE146A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Alamofire;
+			target = 08A16B7582F00884501F5E7A9B8E6FB4 /* Alamofire */;
+			targetProxy = 9A50FD9887FBD4865FE8063E494674A7 /* PBXContainerItemProxy */;
+		};
+		60A79CB2CB867E4EB892F57621849136 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PaymentModule;
+			target = 84C0C5812E75BCC0426F618D6D935553 /* PaymentModule */;
+			targetProxy = 87B0DBE463C70893CA88202BEF9FBDBB /* PBXContainerItemProxy */;
+		};
+		BE3DE437EA4BA7B04DB5427A02A68FE4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Alamofire;
+			target = 08A16B7582F00884501F5E7A9B8E6FB4 /* Alamofire */;
+			targetProxy = E6CF8E0D05449B6E5ABFE984E58B1AA3 /* PBXContainerItemProxy */;
+		};
+		D13EC32908F7AFA4F6B9B2DB2B1A8504 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "PaymentModule-PaymentsResources";
+			target = 6F9A59B8AF1CBF61CFD640D37E72FE04 /* PaymentModule-PaymentsResources */;
+			targetProxy = 745E6CA78E4D04E94F626184485FE8FC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
-		28FB7A42F4CBCEECF402F16C8BD978F1 /* Debug */ = {
+		2B339B7DD7CEA1E27E51BAABAAFB5087 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 05A485F8A62E5C43ED6EB501C6EB64E6 /* Pods-PaymentSetupTesting.debug.xcconfig */;
+			baseConfigurationReference = 507AA1F1CFD4771B0B9A60D93323924E /* Alamofire.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MODULEMAP_FILE = Headers/Public/Alamofire/Alamofire.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = Alamofire;
+				PRODUCT_NAME = Alamofire;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		479014A462C12DC87878F475CB9424DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 507AA1F1CFD4771B0B9A60D93323924E /* Alamofire.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MODULEMAP_FILE = Headers/Public/Alamofire/Alamofire.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = Alamofire;
+				PRODUCT_NAME = Alamofire;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		48A6AE4D9C49FC77C73EC7B633691B5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0B56DE8F129D5F7CABC45743ECBC04F /* PaymentModule.xcconfig */;
+			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/PaymentModule/PaymentModule-prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = Headers/Public/PaymentModule/PaymentModule.modulemap;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = PaymentModule;
+				PRODUCT_NAME = PaymentModule;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4973E0BB14F8D743FD9AA3015BB82B30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0B56DE8F129D5F7CABC45743ECBC04F /* PaymentModule.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/PaymentModule/PaymentModule-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MODULEMAP_FILE = Headers/Public/PaymentModule/PaymentModule.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = PaymentModule;
+				PRODUCT_NAME = PaymentModule;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -328,9 +889,9 @@
 			};
 			name = Debug;
 		};
-		C2406828E818C4F2770DD66BD786655E /* Release */ = {
+		961858D2709A2D53F4D875F4470BFB72 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CC046DF101A7AB422648FE97A3E39CB2 /* Pods-PaymentSetupTesting.release.xcconfig */;
+			baseConfigurationReference = E14868E6F5A9F6BE302088A1BD02080E /* Pods-PaymentSetupTesting.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -340,6 +901,7 @@
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PaymentSetupTesting/Pods-PaymentSetupTesting.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -350,6 +912,61 @@
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
+		};
+		A50E8A671E00C2C8774D5CCA80B46FBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0B56DE8F129D5F7CABC45743ECBC04F /* PaymentModule.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/PaymentModule";
+				INFOPLIST_FILE = "Target Support Files/PaymentModule/ResourceBundle-PaymentsResources-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PRODUCT_NAME = PaymentsResources;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		A956152BE54F7657F864357C97992810 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7218C7E568CAD6F0D7809A52629C250C /* Pods-PaymentSetupTesting.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PaymentSetupTesting/Pods-PaymentSetupTesting.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D1DB6DDAEAC598EA439C36FA7CEFD268 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0B56DE8F129D5F7CABC45743ECBC04F /* PaymentModule.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/PaymentModule";
+				INFOPLIST_FILE = "Target Support Files/PaymentModule/ResourceBundle-PaymentsResources-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PRODUCT_NAME = PaymentsResources;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
 		};
 		D5F759C82752B2EB010DB3CD3D69707C /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -416,6 +1033,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		297C4CADEBD181C01E1CD926E02D4644 /* Build configuration list for PBXNativeTarget "Pods-PaymentSetupTesting" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A956152BE54F7657F864357C97992810 /* Debug */,
+				961858D2709A2D53F4D875F4470BFB72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -425,11 +1051,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B62B78FEA2BBBCE929438113252551D6 /* Build configuration list for PBXNativeTarget "Pods-PaymentSetupTesting" */ = {
+		6878456576E67F453E0E93A076765C41 /* Build configuration list for PBXNativeTarget "PaymentModule-PaymentsResources" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				28FB7A42F4CBCEECF402F16C8BD978F1 /* Debug */,
-				C2406828E818C4F2770DD66BD786655E /* Release */,
+				D1DB6DDAEAC598EA439C36FA7CEFD268 /* Debug */,
+				A50E8A671E00C2C8774D5CCA80B46FBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		77E0AD20508A8CB633E1EB458C5D3ECC /* Build configuration list for PBXNativeTarget "PaymentModule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4973E0BB14F8D743FD9AA3015BB82B30 /* Debug */,
+				48A6AE4D9C49FC77C73EC7B633691B5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F069918FA75D71DAA1B2EBCE2A82AFE /* Build configuration list for PBXNativeTarget "Alamofire" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B339B7DD7CEA1E27E51BAABAAFB5087 /* Debug */,
+				479014A462C12DC87878F475CB9424DF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
